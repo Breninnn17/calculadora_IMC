@@ -1,0 +1,44 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.titulo{
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #a555e7;
+}
+
+.paragrafo{
+  font-size: 1rem;
+  color: #000000;
+}
+
+.lista{
+  list-style-type: disc;
+  margin-bottom: 40px;
+}
+
+.listaItem{
+  font-size: 1.125rem;
+  margin-top: 20px;
+  color: #000000;
+  font-weight: 700;
+}
+
+footer{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 800;
+}
+
+footer a {
+  color: #a555e7;
+}
